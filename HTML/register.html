@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+
+    <link rel="icon" type="image/x-icon" href="/Assets/LV_Logo.png">
+
+    <!-- fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Noto Serif Display' rel='stylesheet'>
+
+    <!-- script -->
+    
+    <script src="Script/jquery.js"></script>
+    <script src="Script/register.js" defer></script>
+
+
+    <!-- css -->
+    <link rel="stylesheet" href="../CSS/headerfooter.css">
+    <link rel="stylesheet" href="../CSS/register.css">
+</head>
+<body>
+
+
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+
+      <title>Register Page</title>
+    </head>
+    <body>
+
+    <!-- Header -->
+
+    <section id="header">
+        <div id="logo-con">
+            <a href="#"><img src="../Assets/LV_Logo_transp.png" class="logo" alt=""></a>
+        </div>
+
+        <div id="navbar">
+            <div class="navbar-con">
+                <a  href="../index.html">Home</a>
+                <a  href="../HTML/products.html">Products</a>
+                <a class="selected" href="../HTML/register.html">Register</a>
+                <a  href="../HTML/about-us.html">About Us</a>
+                <a  href="../HTML/location.html">Location</a>
+            </div>
+        </div>
+
+    </section>
+
+
+
+<!-- register -->
+
+      <h1>Register</h1>
+      <form method="post" action="" onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+    
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+          <option value="">Select</option>
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+          <option value="other">Other</option>
+        </select>
+    
+        <label for="region">Region:</label>
+        <input type="text" id="region" name="region" required>
+    
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    
+        <label>
+          <input type="checkbox" name="terms" required> I agree to the terms and conditions
+        </label>
+    
+        <input type="submit" value="Register">
+      </form>
+    </body>
+    </html>
+    
+
+    <!-- footer -->
+
+    <footer>
+        <div class="container">
+          <div class="footer-content">
+            <p class="company-name">LVinnamon Company</p>
+            <p class="address">123 Main Street | City, State | ZIP Code</p>
+            <p class="contact-info">Phone: (123) 456-7890 | Email: info@lvinnamon.com</p>
+          </div>
+          <p class="website">www.lvinnamon.com</p>
+        </div>
+      </footer>
+      
+
+
+    
+</body>
+</html>
